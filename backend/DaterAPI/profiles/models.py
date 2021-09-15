@@ -8,6 +8,7 @@ from django.db.models.expressions import Value
 # Create your models here.
 
 
+# We always need at least one Manager
 class UserProfileManager(BaseUserManager):
     """Manager for user profiles"""
 
